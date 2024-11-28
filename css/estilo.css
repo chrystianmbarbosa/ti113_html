@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+    background-color: black;
+    font-size: 30px;
+}
+
+section {
+    border: 1px solid blue;
+    background-color: #18d7d7;
+}
+
+h2 {
+    border: 2px dashed red;
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+button{
+    font-size: 10px;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 100px;
+}
