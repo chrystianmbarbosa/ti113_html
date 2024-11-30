@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+</head>
+
+<body>
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>
+        Faça o seu agendamento com pelo menos 48 horas de antecedência
+    </h2>
+
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>
+                Identificação do dono do animal
+            </legend>
+
+            <label for="txt_nome">Nome:</label>
+            <input size="40" type="text" id="txt_nome" name="txt_nome"
+                placeholder="Digite o nome completo do dono do animal...">
+            <br><br>
+            <label for="txt_endereco">Endereço:</label>
+            <input size="40" type="text" id="txt_endereco" name="txt_endereco" placeholder="Digite o endereço...">
+            <br><br>
+            <label for="txt_cep">CEP:</label>
+            <input maxlength="9" size="20" type="text" id="txt_cep" name="txt_cep" placeholder="XXXXX-XXX">
+            <br><br>
+            <label for="txt_email">Email:</label>
+            <input maxlength="100" size="20" type="email" id="txt_email" name="txt_email"
+                placeholder="Digite seu email...">
+            <br><br>
+            <label for="txt_telcel">Tel/Cel:</label>
+            <input maxlength="20" size="20" type="tel" id="txt_telcel" name="txt_telcel" placeholder="99 99999-9999">
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>
+                Animal
+            </legend>
+            <label for="txt_nome_animal">Nome:</label>
+            <input size="40" type="text" id="txt_nome_animal" name="txt_nome_animal"
+                placeholder="Digite o nome do animal...">
+            <br><br>
+
+            <label for="rdb_pequeno">Porte:</label>
+            <input type="radio" name="porte" id="rdb_pequeno">
+            <label for="rdb_pequeno">Pequeno</label>
+            <input type="radio" name="porte" id="rdb_medio">
+            <label for="rdb_medio">Médio</label>
+            <input type="radio" name="porte" id="rdb_grande">
+            <label for="rdb_grande">Grande</label>
+            <br><br>
+
+            <label for="slt_tipo_tosa">Tipo de Tosa:</label>
+            <select name="slt_tipo_tosa" id="slt_tipo_tosa">
+                <option value="">Selecione..</option>
+                <option value="1">Nenhuma</option>
+            </select>
+            <br><br>
+
+            <label for="txt_obervacoes">Observações:</label>
+            <textarea placeholder="Digite alguma informação..." name="txt_obervacoes" id="txt_obervacoes" cols="30"
+                rows="10"></textarea>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>
+                Horário (não atendemos Domingo e Segunda-feira)
+            </legend>
+
+            <label for="chk_terca">Indique os dias da semana de sua preferência:</label><br>
+            <input type="checkbox" name="porte" id="chk_terca">
+            <label for="chk_terca">Terça-feira</label>
+            <input type="checkbox" name="porte" id="chk_quarta">
+            <label for="chk_quarta">Quarta-feira</label>
+            <input type="checkbox" name="porte" id="chk_quinta">
+            <label for="chk_quinta">Quinta-feira</label>
+            <input type="checkbox" name="porte" id="chk_sexta">
+            <label for="chk_sexta">Sexta-feira</label>
+            <input type="checkbox" name="porte" id="chk_sabado">
+            <label for="chk_sabado">Sabado</label>
+            <br><br>
+
+            <label for="txt_primeira_op">Primeira Opção de Horário:</label>
+            <input type="datetime-local" name="txt_primeira_op" id="txt_primeira_op">
+            <br><br>
+
+            <label for="txt_segunda_op">Segunda Opção de Horário:</label>
+            <input type="datetime-local" name="txt_segunda_op" id="txt_segunda_op">
+
+        </fieldset>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+        
+    </form>
+
+</body>
+
+</html>
