@@ -1,0 +1,32 @@
+div.fundo {
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*.botoes{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 5px 10px 5px;
+}*/
+
+#btn1{
+    font-size: 15px;
+    color: red;
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+}
+
+#btn2{
+    font-size: 10px;
+    color:blue;
+    background-color:yellow;
+    padding: 10px 5px 10px 5px;
+}
+
+#btn3{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+}

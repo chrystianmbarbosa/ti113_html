@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+
+<body>
+
+    <h1>Preencha o formulario abaixo</h1>
+
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="txt_nome">Nome</label>
+                    </td>
+                    <td>
+                        <input required type="text" id="txt_nome" name="txt_nome">&nbsp;&nbsp;&nbsp;
+                        <label for="txt_sobrenome">Sobrenome:</label>
+                        <input required type="text" id="txt_sobrenome" name="txt_sobrenome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_dd">Nascimento</label>
+                    </td>
+                    <td>
+                        <input placeholder="dd" size="2px" id="txt_dd" name="txt_dd" type="text"> -
+                        <input placeholder="mm" size="2px" id="txt_mm" name="txt_mm" type="text"> -
+                        <input placeholder="yyyy" size="2px" id="txt_yyyy" name="txt_yyyy" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_rg">RG</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txt_rg" name="txt_rg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_cpf">CPF</label>
+                    </td>
+                    <td>
+                        <input size="11" type="text" id="txt_cpf" name="txt_cpf"> -
+                        <input size="2" type="text" id="txt_dig" name="txt_dig">
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="txt_rua">Rua</label>
+                    </td>
+                    <td>
+                        <input required type="text" id="txt_rua" name="txt_rua">&nbsp;&nbsp;&nbsp;
+                        <label for="txt_numero">Numero:</label>
+                        <input size="3" type="text" id="txt_numero" name="txt_numero">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_bairro">Bairro</label>
+                    </td>
+                    <td>
+                        <input id="txt_bairro" name="txt_bairro" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="slt_uf">Estado</label>
+                    </td>
+                    <td>
+                        <select id="slt_uf" name="slt_uf">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_cidade">Cidade</label>
+                    </td>
+                    <td>
+                        <input id="txt_cidade" name="txt_cidade" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_cep">CEP</label>
+                    </td>
+                    <td>
+                        <input size="10" id="txt_cep" name="txt_cep" type="text"> -
+                        <input size="3" id="txt_digcep" name="txt_digcep" type="text">
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Login</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="txt_email">Email</label>
+                    </td>
+                    <td>
+                        <input required type="email" id="txt_email" name="txt_email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fil_perfil">Imagem Perfil</label>
+                    </td>
+                    <td>
+                        <input type="file" id="fil_perfil" name="fil_perfil" accept="image/png, image/jpeg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_login">Login de Usuário</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txt_login" name="txt_login">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_senha">Senha</label>
+                    </td>
+                    <td>
+                        <input type="password" id="txt_senha" name="txt_senha">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_confirme_senha">Confirme Senha</label>
+                    </td>
+                    <td>
+                        <input type="password" id="txt_confirme_senha" name="txt_confirme_senha">
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+            &nbsp;&nbsp;
+        <button type="reset">Limpar</button>
+
+    </form>
+
+
+</body>
+
+</html>
