@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    height: 100vh;
+    background: linear-gradient(to bottom, #121117, #4f5d76);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+input {
+    width: 95%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: #4f5d76;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #cfd0d0;
+}
+
+textarea {
+    width: 95%;
+    background-color: #4f5d76;
+    border-width: 0;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+form {
+    background-color: #cfd0d0;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td.mensagem {
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+label {
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #4f5d76;
+    color: #cfd0d0;
+    text-transform: uppercase;
+    width: 35%;
+    border-width: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
