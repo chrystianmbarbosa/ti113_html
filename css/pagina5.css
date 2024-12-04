@@ -125,17 +125,19 @@ header {
     color: orange;
 }
 
-hr {
+hr.horizontal {
     width: 75%;
 }
 
 #tab4 {
     margin: 30px auto;
     width: 75%;
+    color: #555;
 }
 
 #tab4 h3 {
     color: #555;
+    margin: 2px 0;
 }
 
 
@@ -155,7 +157,8 @@ hr {
     padding: 5px;
     margin: 5px;
 }
-#tab4 .col3 p{
+
+#tab4 .col3 p {
     display: inline-block;
 }
 
@@ -166,4 +169,21 @@ hr {
 #tab4 .col3 a {
     color: orange;
     float: right;
+}
+
+footer {
+    background-color: #333;
+    color: #DDD;
+    height: 70px;
+    margin: 20px 0;
+}
+
+#tab5 {
+    margin: 30px auto;
+    width: 75%;
+    color: #DDD;
+}
+#tab5 td {
+    padding: 25px 0;
+    vertical-align: bottom;
 }
